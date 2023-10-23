@@ -1,0 +1,150 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
+}
+h1{
+  font-size: 90px;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  line-height: 2;
+}
+h2{
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+}
+h3{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+.c{
+  text-align: center;
+}
+p{
+    line-height: 2;
+}
+.top
+{
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+
+}
+.top-cloud {
+  position: absolute;
+  top: 40px;
+  right: 350px;
+}
+.profile-pic{
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.skill-img-one{
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+.skill-img-two{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+hr{
+  margin: 70px auto 70px auto;
+  border-style: dotted none none;
+  border-color: #99a8b2;
+  width: 3%;
+  border-width: 7px;
+}
+.btn-div{
+  border-radius: 8px;
+  padding: 5px;
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  width: 150px;
+  margin: 25px auto 25px auto;
+}
+.btn-div:hover{
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+}
+.btn{
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+.bottom{
+  margin-bottom: 0;
+  background-color: #66BFBF;
+  padding: 35px 0 35px 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #EAF6F6;
+}
+.footer-link{
+  display: inline-block;
+  width: 100px;
+  color: #11999E;
+  text-decoration: none;
+  font-size: 20px;
+}
+.footer-link:hover{
+  color: #EAF6F6;
+}
+.intro{
+  width: 37%;
+  margin: auto;
+  text-align: justify;
+  text-justify: inter-word;
+
+}
+.content{
+  text-align: justify;
+  text-justify: inter-word;
+}
+.copyright{
+  padding: 20px 0 ;
+  font-size: 0.75rem;
+}
+
+.timeline{
+  position: relative;
+  width: 50%;
+}
+.timeline-box{
+  position: relative;
+  width: 40%;
+  margin: 5px;
+  left: 5%;
+  min-height: 150px;
+}
+.timeline-box:nth-child(2n){
+  left: 53%;
+}
+.timeline-divider{
+  position: absolute;
+  height: 80%;
+  width: 0;
+  border: 2px dashed #66BFBF;
+  left: 50%;
+  top: 5%;
+}
+.timeline-scroll{
+  position: sticky;
+  top: 20%;
+  transform: rotate(90deg);
+}
